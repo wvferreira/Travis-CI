@@ -1,0 +1,16 @@
+language: python
+python:
+  - 3.6
+  - 3.7
+
+script:
+  - python codec.py
+  - python test.py
+
+notifications:
+    email:
+      recipients:
+        - wesley.ferreira@aluno.faculdadeimpacta.com.br
+        - guilherme.anselmo@aluno.faculdadeimpacta.com.br
+      on_sucess: never
+      on_failure: always
